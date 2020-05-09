@@ -1,0 +1,951 @@
+body{
+
+	font-family: 'Oswald', sans-serif;
+}
+
+*{
+	margin: 0 0;
+}
+
+
+.myHeader{
+	background-image: url(../images/bannerbg.jpg);
+	background-size: cover;
+	height: 750px;
+	width: 100%;
+
+
+}
+
+
+.fixedHeader{
+	background-image: url(../images/bannerbg.jpg);
+	position: fixed;
+	background-size: cover;
+	width: 100%;
+}
+
+.myLogo{
+	margin-left: 25px;
+	padding-left: 25px;
+	margin-right: 25px;
+	padding-right: 25px;
+	display: inline-block;
+	width: 46%;
+	padding-top: 25px;
+	
+
+}
+
+.myLogo img{
+	margin-left: 25px;
+	padding-left: 25px;
+	margin-right: 25px;
+	padding-right: 25px;
+	
+	
+}
+
+
+.myNavBar{
+
+	display: inline-block;
+	
+	padding-bottom: 10px;
+
+}
+
+
+.myNavBar a{
+	color: white;
+	text-decoration: none;
+	padding-left: 10px;
+    padding-right: 10px;
+    font-size: 24px;
+	
+}
+.myNavBar a:hover{
+	border-bottom: 3px solid #27c57c;
+
+}
+
+.myHeading{
+	text-align: center;
+}
+
+.myHeading h1{
+	color: white;
+	font-size: 55px;
+	background-color: #102a6c;
+	display: inline-block;
+	padding: 5px 25px 5px 25px;
+	margin-top: 240px;
+	font-family: 'Barlow Semi Condensed', sans-serif;
+	
+}
+.myHeading h2{
+	color: white;
+	font-size: 22px;
+	background-color: #89c527;
+	display: inline-block;
+	padding: 12px 25px 12px 25px;
+	margin-top: 15px;
+	font-weight: lighter;
+}
+.myHeading p{
+	color: white;
+	font-size: 27px;
+	background-color: #102a6c;
+	display: inline-block;
+	padding: 15px 25px 15px 25px;
+	margin-top: 15px;
+	font-weight: lighter;
+
+	
+}
+.img2{
+	text-align: center;
+	margin-top: 85px;
+}
+.sec1{
+	padding-left: 25px;
+}
+
+.sec2{
+	padding-left: 20px;
+}
+
+.sec3{
+	padding-left: 3px;
+}
+
+.sec4{
+	padding-left: 24px;
+}
+.sec5{
+	padding-left: 25px;
+}
+.sec6{
+	padding-right: 25px;
+}
+.Heading1{
+	text-align: center;
+
+}
+.Heading1 h1{
+	margin-top: 90px;
+	font-size: 45px;
+
+
+}
+.Heading1 p{
+	margin-top: 30px;
+	font-size: 20px;
+	margin-bottom: 30px;
+	font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+.Heading1 h1::after{
+	padding-top: 10px;
+	content: "";
+	margin: 0 48%;
+	display: block;
+	width: 5%;
+	border-bottom: 5px solid #7db424;
+	
+}
+
+.mainDiv{
+	width: 100%;
+	margin-top: 55px;
+
+}
+.serIcons img{
+	height: 230px;
+	width: 220px;
+	text-align: center;
+	padding: 25px;
+	margin-left: 25px;
+
+}
+.serIcon2 img{
+	height: 230px;
+	width: 220px;
+	text-align: center;
+	padding: 25px 25px 31px 25px;
+	margin-left: 25px;
+
+}
+.serIcon0{
+	width: 8%;
+	display: inline-block;
+
+}
+
+.serIcon00{
+	width: 0%;
+	display: inline-block;
+}
+
+.serIcon000{
+	width: 0%;
+	display: inline-block;
+}
+
+.serIcons{
+	width: 24%;
+	height: 500px;
+	display: inline-block;
+	background-color: #f6f6f6;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-right: 20px;
+	padding-top: 30px;
+	text-align: center;
+	
+}
+.serIcon2{
+	width: 24%;
+	height: 508px;
+	display: inline-block;
+	background-color: #f6f6f6;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-right: 20px;
+	padding-top: 20px;
+	text-align: center;
+	
+}
+.serIcon2 h1{
+	font-size: 27px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 22px;
+}
+
+.serIcon2 h1::after{
+	padding-top: 10px;
+	content: "";
+	margin: 0 40%;
+	display: block;
+	width: 20%;
+	border-bottom: 5px solid #7db424;
+	
+}
+
+.serIcon2 p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+.serIcons h1{
+	font-size: 27px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.serIcons h1::after{
+	padding-top: 10px;
+	content: "";
+	margin: 0 39%;
+	display: block;
+	width: 20%;
+	border-bottom: 5px solid #7db424;
+	
+}
+
+.serIcons p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+
+ .serIcons .part{
+
+	display: block;
+  
+
+
+}
+ .serIcon2 .part{
+
+	display: block;
+
+
+}
+ .serIcon2 .part1{
+
+	display: block;
+	text-align: center;
+    font-size: 16px;
+    color: transparent;
+
+
+}
+
+
+
+.quickPhoneRepair{
+	background-color:#121010;
+	margin-top: 124px;
+	
+}
+
+.leftArrow{
+	font-size: 35px;
+	color: white;
+	float: left;
+	 margin-top: 120px;
+    padding-top: 120px;
+    padding-left: 25px;
+    margin-left: 25px;
+}
+
+.rightArrow{
+	font-size: 35px;
+	color: white;
+	float: right;
+	margin-top: 120px;
+    padding-top: 120px;
+    padding-right: 25px;
+    margin-right: 25px;
+}
+
+
+
+.contactForm{
+	text-align: center;
+
+}
+.contactForm h1{
+	margin-top: 90px;
+	font-size: 45px;
+
+}
+.contactForm p{
+	margin-top: 30px;
+	font-size: 20px;
+	font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+	
+
+}
+.contactForm h1::after{
+	padding-top: 10px;
+	content: "";
+	margin: 0 48%;
+	display: block;
+	width: 4%;
+	border-bottom: 5px solid #7db424;
+	
+}
+
+
+
+.myForm{
+	margin-top: 200px;
+	
+}
+
+ hr{
+	width: 107%;
+	margin-top: 7px;
+	
+}
+
+.extraSpace{
+	width: 27%;
+	display: inline-block;
+}
+.extraSpace1{
+	width: 28%;
+	display: inline-block;
+}
+
+.inputForm{
+	display: inline-block;
+}
+.inputForm p{
+	padding-top: 12px;
+	font-weight: bold;
+	font-size: 19px;
+	margin-left: 10px;
+	font-family: 'Roboto', sans-serif;
+	
+
+}
+
+.inputformStyle{
+	border: transparent;
+    font-size: 15px;
+    width: 106%;
+    margin-left: 10px;
+
+}
+
+ 
+.messageBox{
+	overflow: hidden;
+	border: transparent;
+}
+
+input {
+    font-size: 20px;
+    width: 107%;
+}
+
+.reciept{
+	display: none;
+}
+.myButton{
+	display: inline-block;
+}
+
+.sendButton{
+	
+
+  padding: 10px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+ }
+ 
+
+ .footerTop{
+ 	margin-top: 45px;
+ 	text-align: center;
+ 	height: 220px;
+ 	background-color: #112a6c;
+ }
+
+
+
+ .footerCol{
+	float: left;
+	display: inline-block;
+	width: 23%;
+	margin: 0 25px;
+	padding: 0 25px;
+}
+
+ .footerCol h2{
+ 	padding-top: 25px;
+ 	color: white;
+ 	font-weight: lighter;
+    font-size: 37px;
+
+ }
+
+ .footerCol h2::after{
+	padding-top: 10px;
+	content: "";
+	margin: 0 41%;
+	display: block;
+	width: 20%;
+	border-bottom: 5px solid white;
+	
+}
+  .footerCol p{
+ 	color: white;
+ 	padding-top: 16px;
+ 	margin-bottom: -17px;
+ 	font-size: 20px;
+
+ }
+
+.footerSpan{
+	display: block;
+	padding-top: 3px;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.footerSpan2{
+	padding-top: 3px;
+	padding-right: 5px;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.footerSpan3{
+	padding-left: 5px;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+
+.footerSpan4{
+	padding-right: 5px;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.footerSpan5{
+	padding-left: 5px;
+	font-family: 'Roboto', sans-serif;
+	
+}
+
+.footerSpan1{
+	color: white;
+	padding-left: 7px;
+	font-size: 26px;
+}
+
+.footerBottom{
+	background-color: #161616;
+	color: white;
+}
+
+.footerBottom p{
+	padding: 32px 0px 32px 25px;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.extraMargin{
+	display: inline-block;
+	width: 3%;
+}
+.copyRight{
+	display: inline-block;
+}
+.footerBottomspan1{
+	padding-right: 5px;
+}
+
+.footerBottomspan2{
+	padding-left: 5px;
+}
+
+.clear{
+	clear: both;
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+
+	.myLogo{
+		width: 81%;
+	}
+
+	.myLogo img {
+    width: 98%;
+    height: 125px;
+}
+
+.myNavBar {
+    padding: 14px 0px 10px 25px;
+    margin-left: 25px;
+}
+
+
+.myNavBar a {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 54px;
+}
+
+.myHeader {
+    height: 848px;
+    width: 357%;
+}
+
+.myHeading h1 {
+    margin-top: 350px;
+    font-size: 60px;
+}
+
+.myHeading h2 {
+  
+    font-size: 25px;
+}
+
+.myHeading p {
+  
+    font-size: 32px;
+}
+
+.img2 {
+    padding-left: 25px;
+    margin-left: 25px;
+}
+.img2 img{
+    height: 70px;
+    width: 996px;
+}
+
+.myHeader{
+    height: 848px;
+  
+}
+
+.Heading1 {
+    width: 355%;
+
+}
+.Heading1 h1 {
+    font-size: 90px;
+}
+.Heading1 p {
+  
+    font-size: 32px;
+ }
+
+.Heading1 h1::after {
+    margin: 0 45%;
+    width: 10%;
+}
+
+.mainDiv {
+    width: 350%;
+  
+
+} 
+
+.serIcon0 {
+    width: 26%;
+    
+  }
+
+  .serIcon00 {
+  	display: inline-block;
+    width: 26%;
+    
+  }
+
+  .serIcon000 {
+  	display: inline-block;
+    width: 26%;
+  }
+
+
+  .serIcons {
+    width: 45%;
+    height: 600px;
+    margin-top: 20px;
+
+}
+
+.serIcons img {
+    height: 295px;
+    width: 303px;
+ }
+ .serIcons h1 {
+    font-size: 46px;
+}
+.serIcons p{
+    font-size: 21px;
+}
+.serIcon2 {
+    width: 45%;
+    height: 600px;
+    margin-top: 20px;
+   
+}
+
+.serIcon2 img {
+    height: 295px;
+    width: 303px;
+ }
+ .serIcon2 h1 {
+    font-size: 46px;
+}
+.serIcon2 p{
+    font-size: 21px;
+}
+.quickPhoneRepair {
+    
+    width: 357%;
+  }
+  .quickPhoneRepair img {
+    width: 85%;
+}
+.contactForm {
+    width: 353%;
+}
+.contactForm h1 {
+    font-size: 90px;
+}
+
+.contactForm p {
+    font-size: 32px;
+}
+.contactForm h1::after {
+    margin: 0px 43%;
+    width: 12%;
+}
+.myForm {
+    width: 355%;
+    }
+
+.extraSpace {
+    width: 29%;
+}
+.inputForm {
+    width: 45%;
+}
+.myForm {
+    margin-top: 140px;
+}
+.inputForm p {
+    
+    font-size: 32px;
+}
+.inputformStyle {
+ 	font-size: 10px;
+}
+.sendButton {
+    font-size: 42px;
+}
+.footerTop {
+    width: 357%;
+    height: 828px;
+   }
+.footerCol {
+    width: 92%;
+}
+.footerCol h2 {
+	font-size: 78px;
+}
+.footerCol h2::after {
+    width: 11%;
+    margin: 0 44%;
+
+ }
+
+ .footerCol p {
+    font-size: 40px;
+}
+.footerSpan1{
+	font-size: 43px;
+}
+.footerBottom {
+    width: 358%;
+}
+.footerBottom p {
+    font-size: 30px;
+ }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 993px){
+
+	.myHeader {
+    width: 152%;
+}
+
+.img2 img{
+	width: 80%;
+}
+
+.Heading1 {
+    width: 148%;
+}
+
+.myLogo {
+    width: 42%;
+ }
+ .mainDiv {
+    width: 148%;
+}
+
+element.style {
+}
+.serIcon0 {
+    width: 29%;
+}
+.serIcons {
+    width: 35%;
+    margin-top: 15px;
+    margin-left: 14px;
+}
+
+.serIcon00 {
+    width: 30%;
+}
+.serIcon2 {
+    width: 35%;
+    margin-top: 15px;
+}
+
+.serIcon000 {
+    width: 29%;
+}
+
+.quickPhoneRepair{
+	width: 150%;
+}
+
+.quickPhoneRepair img{
+	width: 80%;
+}
+
+.contactForm {
+    width: 152%;
+}
+
+.myForm {
+    width: 137%;
+}
+
+.inputForm p {
+    font-size: 22px;
+}
+
+.footerTop {
+    width: 150%;
+}
+
+.footerCol h2 {
+    font-size: 34px;
+}
+
+.footerBottom {
+    width: 150%;
+}
+
+.footerBottom p {
+    font-size: 18px;
+}
+
+
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+.myHeader {
+   
+    width: 112%;
+
+}
+
+.myLogo {
+    
+    width: 42%;
+ }
+
+ .img2 img{
+ 	width: 75%;
+ }
+
+ .serIcons img {
+    height: 188px;
+    width: 183px;
+    margin-left: 0px;
+}
+
+.serIcons {
+    width: 23%;
+  }
+ .serIcon2 {
+    width: 23%;
+}
+
+.serIcon2 img {
+    height: 188px;
+    width: 183px;
+    margin-left: 0px;
+ }
+
+ .mainDiv {
+    margin-left: 15px;
+    padding-left: 15px;
+}
+
+.serIcons h1 {
+    font-size: 22px;
+ }
+ .serIcon2 h1 {
+    font-size: 22px;
+ }
+
+ .serIcons p {
+    font-size: 10px;
+ 
+
+ }
+ .serIcon2 p {
+    font-size: 10px;
+}
+
+ .Heading1 {
+    margin-left: 25px;
+    padding-left: 25px;
+}
+
+.Heading1 h1 {
+    margin-left: 25px;
+    padding-left: 25px;
+}
+
+.Heading1 h1::after {
+    margin: 0 47%;
+    width: 6%;
+}
+
+.Heading1 p {
+    margin-left: 25px;
+    padding-left: 25px;
+}
+
+.contactForm h1::after {
+    margin: 0 47%;
+    width: 7%;
+}
+
+
+
+.quickPhoneRepair {
+   
+    width: 112%;
+}
+
+
+.quickPhoneRepair img{
+   
+   height: auto;
+   width: 83%;
+}
+
+.contactForm h1{
+	padding-left: 25px;
+	margin-left: 25px;
+}
+
+.contactForm p{
+	padding-left: 25px;
+	margin-left: 25px;
+}
+
+.footerTop {
+    
+    width: 112%;
+}
+
+.footerCol h2 {
+    font-size: 34px;
+}
+
+.footerBottom {
+    
+    width: 112%;
+   }
+
+@media (min-width: 1200px) {
+
+}
+
